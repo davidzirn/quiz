@@ -9,7 +9,7 @@ export default function FirstQuestion() {
         <h1 className="text-center">Hotovo</h1>
 
         <h3 className="text-center">
-          Tam kde nejstarší s koček nejradši hnízdí, je poklad schován kde se
+          Tam kde nejstarší z koček nejradši hnízdí, je poklad schován kde se
           nejvíc svítí
         </h3>
       </div>

@@ -11,7 +11,7 @@ export default function FirstQuestion() {
 
   const answerHandler = () => {
     if (
-      answer.toLocaleLowerCase() === "porshe" ||
+      answer.toLocaleLowerCase() === "porsche" ||
       answer.toLocaleLowerCase() === "porše"
     ) {
       router.push("/first-completed");
@@ -23,9 +23,9 @@ export default function FirstQuestion() {
   return (
     <>
       <div className="h-[100vh] w-full px-[20px] flex flex-col justify-center gap-[30px]">
-        <h1 className="text-center">1. otázka</h1>
+        <h1 className="text-center">1. Otázka</h1>
         <p className="text-center">
-          Jaká je nejoblíbenější automobilová značka tvého syna Davida?
+          Král David má vysnený kočár, šetřit na něj nezapočal
         </p>
         <div className="relative w-full">
           <input

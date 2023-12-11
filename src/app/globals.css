@@ -3,13 +3,20 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    background-color: black;
+  }
   h1 {
-    @apply text-[40px] font-black leading-[50px];
+    @apply text-[40px] font-black leading-[50px] text-white;
   }
   h3 {
-    @apply text-[24px] leading-[34px] font-black;
+    @apply text-[24px] leading-[34px] font-black text-white;
   }
   button {
-    @apply px-[50px] py-[16px] bg-black text-white uppercase tracking-[3px] rounded-lg;
+    @apply px-[50px] py-[16px] bg-gradient-to-r from-lime-500 to-lime-400 text-white uppercase tracking-[3px] rounded-lg;
+  }
+  p {
+    @apply text-white;
   }
 }
