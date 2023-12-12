@@ -9,7 +9,10 @@ export default function FirstQuestion() {
         <h1 className="text-center">Hotovo</h1>
 
         <h3 className="text-center">
-          Punčochářův vdoleček, jak kočičí domeček
+          Punčochářův vdoleček,
+          <br /> jak kočičí domeček,
+          <br />
+          najdi si svůj dáreček. :)
         </h3>
       </div>
     </>

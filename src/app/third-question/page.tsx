@@ -33,7 +33,7 @@ export default function FirstQuestion() {
               setAnswer(text.currentTarget.value);
             }}
             type="text"
-            placeholder="N. . . . n"
+            placeholder="N _ _ _ _"
             className="border-[1px] w-full px-[20px] py-[16px] rounded-lg"
           />
           {error && (
